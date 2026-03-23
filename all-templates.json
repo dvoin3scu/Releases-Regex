@@ -1,11 +1,11 @@
 [
   {
     "metadata": {
-      "id": "Vidhin05.regex-template",
+      "id": "dvoin3scu.regex-template",
       "name": "Vidhin's Regexes",
-      "description": "Sorting streams using [TRaSH Guides](https://trash-guides.info) regex + Ranked Stream Expressions. Choose **English**, **German**, or **Legacy English**. Fully **auto-syncs** updates to regex patterns and expressions.\n\n * **English** — Full scoring: quality tiers, audio hierarchy, HDR/DV, streaming tags, anime, editions, penalties.\n * **German** — Same as English plus TRaSH DE and DE Anime quality profiles: DE DL / DE-only / Not DE/EN, DE T1–T3 (Remux/Bluray/Web), Web Scene DE, DE Anime BD/Web tiers, LQ DE, DE Microsized.\n * **Legacy English** — Release-group scoring only (no detailed audio/visual/streaming). **Not recommended**; use English unless you only care about release groups.\n\n * **ⓘ Requires Stream Expression Score in sort order** (not Regex)\n * Use `{stream.seScore}` and `{stream.rseMatched}` instead of `{stream.regexMatched}` in custom formatters\n * ⚠️ [How to customize scores](https://github.com/Vidhin05/Releases-Regex#customizing-scores)",
+      "description": "Sorting streams using [TRaSH Guides](https://trash-guides.info) regex + Ranked Stream Expressions. Choose **English**, **German**, or **Legacy English**. Fully **auto-syncs** updates to regex patterns and expressions.\n\n * **English** — Full scoring: quality tiers, audio hierarchy, HDR/DV, streaming tags, anime, editions, penalties.\n * **German** — Same as English plus TRaSH DE and DE Anime quality profiles: DE DL / DE-only / Not DE/EN, DE T1–T3 (Remux/Bluray/Web), Web Scene DE, DE Anime BD/Web tiers, LQ DE, DE Microsized.\n * **Legacy English** — Release-group scoring only (no detailed audio/visual/streaming). **Not recommended**; use English unless you only care about release groups.\n\n * **ⓘ Requires Stream Expression Score in sort order** (not Regex)\n * Use `{stream.seScore}` and `{stream.rseMatched}` instead of `{stream.regexMatched}` in custom formatters\n * ⚠️ [How to customize scores](https://github.com/dvoin3scu/Releases-Regex#customizing-scores)",
       "source": "external",
-      "author": "Vidhin05",
+      "author": "dvoin3scu",
       "version": "2.1.0",
       "category": "Regex",
       "services": [],
@@ -76,7 +76,7 @@
         {
           "id": "customizeScores",
           "name": "",
-          "description": "[How to customize scores](https://github.com/Vidhin05/Releases-Regex#customizing-scores)",
+          "description": "[How to customize scores](https://github.com/dvoin3scu/Releases-Regex#customizing-scores)",
           "type": "alert",
           "intent": "warning-basic"
         },
@@ -88,7 +88,7 @@
           "socials": [
             {
               "id": "github",
-              "url": "https://github.com/Vidhin05/Releases-Regex"
+              "url": "https://github.com/dvoin3scu/Releases-Regex"
             },
             {
               "id": "ko-fi",
@@ -151,17 +151,17 @@
         "__switch": "inputs.variant",
         "cases": {
           "english": [
-            "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/regexes.json"
+            "https://raw.githubusercontent.com/dvoin3scu/Releases-Regex/main/English/regexes.json"
           ],
           "german": [
-            "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/German/regexes.json"
+            "https://raw.githubusercontent.com/dvoin3scu/Releases-Regex/main/German/regexes.json"
           ],
           "legacy-english": [
-            "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/regexes.json"
+            "https://raw.githubusercontent.com/dvoin3scu/Releases-Regex/main/English/regexes.json"
           ]
         },
         "default": [
-          "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/regexes.json"
+          "https://raw.githubusercontent.com/dvoin3scu/Releases-Regex/main/English/regexes.json"
         ]
       },
       "rankedStreamExpressions": {
@@ -176,7 +176,7 @@
                 "enabled": true
               },
               {
-                "expression": "/*𝚐𝚒𝚝𝚑𝚞𝚋.𝚌𝚘𝚖/Vidhin05/Releases-Regex 𝚏𝚘𝚛 𝚏𝚞𝚕𝚕 𝚐𝚞𝚒𝚍𝚎*/ []",
+                "expression": "/*𝚐𝚒𝚝𝚑𝚞𝚋.𝚌𝚘𝚖/dvoin3scu/Releases-Regex 𝚏𝚘𝚛 𝚏𝚞𝚕𝚕 𝚐𝚞𝚒𝚍𝚎*/ []",
                 "score": 0,
                 "enabled": true
               }
@@ -188,7 +188,7 @@
                 "enabled": true
               },
               {
-                "expression": "/*𝚐𝚒𝚝𝚑𝚞𝚋.𝚌𝚘𝚖/Vidhin05/Releases-Regex 𝚏𝚘𝚛 𝚏𝚞𝚕𝚕 𝚐𝚞𝚒𝚍𝚎*/ []",
+                "expression": "/*𝚐𝚒𝚝𝚑𝚞𝚋.𝚌𝚘𝚖/dvoin3scu/Releases-Regex 𝚏𝚘𝚛 𝚏𝚞𝚕𝚕 𝚐𝚞𝚒𝚍𝚎*/ []",
                 "score": 0,
                 "enabled": true
               }
@@ -200,7 +200,7 @@
                 "enabled": true
               },
               {
-                "expression": "/*𝚐𝚒𝚝𝚑𝚞𝚋.𝚌𝚘𝚖/Vidhin05/Releases-Regex 𝚏𝚘𝚛 𝚏𝚞𝚕𝚕 𝚐𝚞𝚒𝚍𝚎*/ []",
+                "expression": "/*𝚐𝚒𝚝𝚑𝚞𝚋.𝚌𝚘𝚖/dvoin3scu/Releases-Regex 𝚏𝚘𝚛 𝚏𝚞𝚕𝚕 𝚐𝚞𝚒𝚍𝚎*/ []",
                 "score": 0,
                 "enabled": true
               }
@@ -213,7 +213,7 @@
               "enabled": true
             },
             {
-              "expression": "/*𝚐𝚒𝚝𝚑𝚞𝚋.𝚌𝚘𝚖/Vidhin05/Releases-Regex 𝚏𝚘𝚛 𝚏𝚞𝚕𝚕 𝚐𝚞𝚒𝚍𝚎*/ []",
+              "expression": "/*𝚐𝚒𝚝𝚑𝚞𝚋.𝚌𝚘𝚖/dvoin3scu/Releases-Regex 𝚏𝚘𝚛 𝚏𝚞𝚕𝚕 𝚐𝚞𝚒𝚍𝚎*/ []",
               "score": 0,
               "enabled": true
             }
@@ -224,17 +224,17 @@
         "__switch": "inputs.variant",
         "cases": {
           "english": [
-            "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/expressions.json"
+            "https://raw.githubusercontent.com/dvoin3scu/Releases-Regex/main/English/expressions.json"
           ],
           "german": [
-            "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/German/expressions.json"
+            "https://raw.githubusercontent.com/dvoin3scu/Releases-Regex/main/German/expressions.json"
           ],
           "legacy-english": [
-            "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/legacy-expressions.json"
+            "https://raw.githubusercontent.com/dvoin3scu/Releases-Regex/main/English/legacy-expressions.json"
           ]
         },
         "default": [
-          "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/expressions.json"
+          "https://raw.githubusercontent.com/dvoin3scu/Releases-Regex/main/English/expressions.json"
         ]
       }
     }
